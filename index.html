@@ -12,16 +12,27 @@
 </head>
 
 <style>
-  body {
-    background-color:pink;
-  }
+ 
+body {
+  margin: 0;
+  /* font-family: Arial;
+  font-size: 17px; */
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
   </style>
 
 <body>
-<!--   <audio controls autoplay>
-    <source src="img/music.mp4" type="audio/mpeg">
-  Your browser does not support the audio element.
-  </audio> -->
+  <video autoplay muted loop id="myVideo">
+    <source src="img/love.mp4" type="video/mp4">
+  </video>
 
   <div class="container">
     <div class="one">
@@ -44,6 +55,7 @@
       <p class="idea-2">But then I stopped.</p>
       <p class="idea-3">I realised, I wanted to do something
         <strong>special</strong>.</p>
+        <!-- <p style="font-size:500%;color:red;">&hearts;</p> -->
       <p class="idea-4">Because,</p>
       <div>
       <p class="idea-5">You are Special
